@@ -9,7 +9,7 @@
 
 4.List the four product which are grater than 500 in price 
   - db.product.find({"product_price":{"$gte":500}})
-  - I have used limit 4 in the MongoDB compass ,skip and limit options.
+  - I have used limit 4 in the MongoDB compass ,like the skip and limit options.
 
 5.Find the product name and product material of each products
   - db.product.find({} ,{"product_name":1,"product_material":1})
