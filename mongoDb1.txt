@@ -29,7 +29,7 @@
 10.Delete the products which product price value are same
    - db.product.deleteMany({"product_price:{"$in:db.product.distinct("product_price",{}) },})
 
-I don't have the idea for 10 question , I have search online for the question and implemented it.
+I don't have the idea for 10 question, I searched online for the question and implemented it.
 
 
 
